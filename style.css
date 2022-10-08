@@ -1,0 +1,1083 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html
+{
+    font-size: 10px;
+}
+header
+{
+    /* background: linear-gradient(to bottom, rgb(255, 255, 255), rgba(253, 253, 253, 0) 95%); */
+    background-image: url(./HYER-images/private\ jet.png);
+    background-size: cover;
+    height: 100vh;
+}
+.header-main-div
+{
+    justify-content: space-between;
+    margin: 0 5rem;
+    padding-bottom: 5rem;
+    border-bottom: .07rem solid rgb(71, 71, 71);
+}
+.header-div
+{
+    display: flex;
+    font-size: 2.1rem;
+}
+.section1>h2
+{
+    font-size: 23rem;
+}
+.section1 sup
+{
+    font-size: 10rem;
+    margin-left: 1rem;
+}
+.section2
+{
+    margin-left: 13rem;
+}
+.section2 nav, .section2 nav ul
+{
+    display: flex;
+    align-items: center;
+}
+.section2 nav
+{
+    margin-top: 5rem;
+}
+nav img
+{
+    width: 5rem;
+    border-radius: 2.5rem;
+    margin-left: 1.5rem;
+    position: absolute;
+    top: 10%;
+}
+nav ul
+{
+    list-style-type: none;
+    margin-right: 5rem;
+}
+nav ul li
+{
+    margin-right: 3.1rem;
+}
+nav ul li a
+{
+    text-decoration: none;
+    color: rgb(1, 1, 1);
+}
+nav ul li a:hover
+{
+    animation-name: nav;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes nav
+{
+   0%{text-decoration: none;}
+   1%{text-decoration: underline;}
+}
+
+.section2 h1
+{
+    font-size: 6rem;
+    margin-top: 7rem;
+}
+.header-div-2
+{
+    margin-top: 25rem;
+    font-size: 2.8rem;
+    font-weight: bold;
+    font-style: bold;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    right: 6%;
+}
+
+.header-div-2 p{
+    margin-left: 5%;
+}
+
+.header-buttons button, .maj-sec-7-div button
+{
+    background-color: black;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: white;
+    width: 17rem;
+    height: 4.3rem;
+    border-radius: 3rem;
+    outline: none;
+    border: none;
+    position: relative;
+    right: 2%;
+}
+#btn2
+{
+    width: 20rem;
+    margin-left: .3rem;
+    margin-right: 10rem;
+}
+.header-buttons button:hover , .maj-sec-7-div button:hover
+{
+    background-color: rgba(0, 0, 0, .8);
+}
+.maj-section-2
+{
+    display: flex;
+    margin: 8rem 5rem;
+}
+.sec-div-1
+{
+    height: 130vh;
+    width: 40%;
+    /* background-color: aqua; */
+}
+.sec-div-2
+{
+    padding: 0 3rem;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+}
+.sec-div-2 h3
+{
+    font-size: 5.8rem;
+    line-height: 6rem;
+    margin-bottom: 8rem;
+}
+.sec-div-2 article
+{
+    font-size: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5rem;
+}
+.sec-div-2 article div
+{
+    border-top: .1rem solid black;
+}
+.sec-div-2 article div h4
+{
+    font-size: 2.1rem;
+    margin: 2rem 0;
+}
+.sec-div-2 article div p
+{
+    color: rgb(146, 146, 146);
+}
+.maj-section-3
+{
+    display: flex;
+}
+.maj-section-3 div
+{
+    width: 33.3%;
+    height: 116vh;
+    margin-top: 7rem;
+}
+.sec-3-div1
+{
+    background-color: rgb(3, 3, 29);
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sec-3-div1 div:nth-child(2)
+{
+    margin-top: 28rem;
+}
+.sec-3-div1 h3
+{
+    margin-top: -7rem;
+    font-weight: bolder;
+    font-size: 4.6rem;
+    color: white;
+}
+.sec-3-div1 p
+{
+    color: white;
+    font-weight: bold;
+    font-size: 1.8rem;
+    width: 30rem;
+    /* margin-top: 40rem; */
+
+}
+.sec-3-div1 button
+{
+    margin-top: 5.6rem;
+    font-size: 1.6rem;
+    font-weight: bold;
+    background-color: transparent;
+    color: white;
+    border: 1px white solid;
+    /* outline: none; */
+    width: 13rem;
+    border-radius: 4rem;
+    padding: 1.1rem;
+    /* margin-bottom: 3rem; */
+}
+.sec-3-div1 button:hover
+{
+    background-color: white;
+    color: black;
+}
+.sec-3-div2
+{
+    background-image: url(./HYER-images/luxury-private-jet-parked.jpg);
+    background-size: cover;
+    background-position-x: -48rem;
+    padding: 0 7rem;
+}
+.sec-3-div2 h3, .sec-3-div3 h3
+{
+    margin-top: 63rem;
+    font-size: 4rem;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+.sec-3-div2 p, .sec-3-div3 p
+{
+    /* display: none; */
+    /* animation-name: display; */
+    font-size: 1.8rem;
+    color: white;
+}
+/* .sec-3-div2:hover
+{
+    animation-name: display;
+    animation-duration: 15s;
+    transition: ease 3s;
+}
+@keyframes display
+{
+    from{ display: none;}
+} */
+.sec-3-div3
+{
+    background-image: url(./HYER-images/aircrafts-line-path-3.jpg);
+    background-size: cover;
+    padding: 0 8.3rem;
+}
+.sec-3-div3 h3, .sec-3-div3 p
+{
+    color: black;
+}
+.maj-section-4
+{
+    display: flex;
+    flex-direction: column ;
+    margin: 12rem 12rem;
+}
+.pop-dest h2
+{
+    font-size: 4.6rem;
+    margin-bottom: 5rem;
+}
+.pop-dest + article
+{
+    display: flex;
+
+}
+.pop-dest + article div img
+{
+    width: 58rem;
+    border-bottom-right-radius: 5rem;
+}
+.gen-main-div
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+    padding: 0 4rem;
+    font-size: 2.4rem;
+}
+.gen-main-div div
+{
+    width: 25rem;
+    border-bottom: .1rem solid rgb(190, 190, 190);
+    border-bottom-right-radius: 3rem;
+}
+.special
+{
+    border-top: .1rem solid rgb(190, 190, 190);
+}
+.special-1
+{
+    margin-top: -2.8rem;
+}
+.gen-main-div h3
+{
+    margin-top: 1.5rem;
+    margin-bottom: 14rem;
+}
+.gen-main-div p
+{
+    font-size: 1.6rem;
+
+}
+.gen-main-div span
+{
+    font-weight: normal;
+}
+.maj-section-5
+{
+    height: 122vh;
+    display: flex;
+    position: relative;
+}
+.maj-section-5 img
+{
+    width: 50%;
+    height: 88%;
+    position: absolute;
+    top: 9.6rem;
+}
+.image
+{
+    background-color: rgba(3, 3, 29, 1);
+    /* background-blend-mode: lighten; */
+    height: 122vh;
+    width: 50%;
+}
+.flight-manager
+{
+    background-color: rgba(3, 3, 29, .97);
+    width: 50%;
+    padding: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.flight-manager h2
+{
+    font-size: 6rem;
+    font-weight: bold;
+    color: white;
+}
+.flight-manager p
+{
+    color: white;
+    font-size: 1.8rem;
+}
+.maj-section-6
+{
+    font-size: 15rem;
+    line-height: 15rem;
+    margin-top: 3rem;
+    margin-left: 5rem;
+}
+.maj-section-6 sup
+{
+    font-size: 12rem;
+    margin-left: 1rem;
+}
+.maj-section-7
+{
+    display: flex;
+    font-size: 1.8rem;
+    margin: 8rem 6rem ;
+    justify-content: space-between;
+}
+.maj-sec-7-div button
+{
+    margin-top: 85rem;
+}
+.maj-sec-7-div2
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5rem;
+    height: 120vh;
+    margin-left: 30rem;
+}
+
+.icon
+{
+    width: 10rem;
+    border: .1rem dashed rgb(150, 150, 150);
+    padding: 2.5rem;
+    border-bottom-right-radius: 3rem;
+
+}
+.icon img
+{
+    width: 5rem;
+}
+.icon + h4
+{
+    margin: 3rem 0;
+    font-size: 2rem;
+}
+.maj-section-8 img
+{
+    margin: 3rem 6rem;
+    width: 90vw;
+}
+.maj-section-9
+{
+    text-align: center;
+    padding: 25rem 0;
+    background-image: linear-gradient(to bottom, white 30%, rgb(205, 232, 243));
+}
+.maj-section-9 h3
+{
+    font-size: 2.7rem;
+    color: rgb(130, 130, 130);
+}
+.maj-section-9 a
+{
+    font-size: 12rem;
+    margin-top: 1rem;
+    color: black;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.maj-section-9 a:hover
+{
+    border-bottom: .5rem solid black;
+}
+footer
+{
+    background-color: rgba(0, 7, 10, 0.98);
+    height: 125vh;
+    color: white;
+    font-size: 1.9rem;
+    padding: 6rem;
+}
+.footer-sec-1
+{
+    font-size: 3rem;
+    margin-top: -2rem;
+    margin-bottom: 8rem;
+}
+.footer-sec-1 sup
+{
+    font-size: 1.4rem;
+    margin-left: .4rem;
+}
+.footer-sec-2
+{
+    display: flex;
+    /* justify-content: space-between; */
+}
+.foot-sec-2-main-div div
+{
+    display: flex;
+}
+.foot-sec-2-main-div div div img
+{
+    width: 2.5rem;
+    margin: 1rem 1.3rem;
+    margin-top: 1.2rem;
+}
+.foot-sec-2-main-div div div
+{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 2.5rem;
+    background-color: rgb(151, 151, 151);
+    margin: 1.2rem .5rem;
+}
+.foot-sec-2-main-div div div:hover
+{
+    background-color:black;
+}
+.grid-display
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10rem;
+    row-gap: 4rem;
+    margin-left: 30rem;
+}
+.grid-display p
+{
+    margin: 1rem 0;
+    font-size: 1.8rem;
+}
+.grid-display p a, .footer-sec-3 p a
+{
+    color: rgb(151, 151, 151);
+    text-decoration: none;
+}
+.grid-display p a:hover, .footer-sec-3 p a:hover
+{
+    color: rgb(255, 255, 255);
+    transition-delay: .15s;
+}
+.footer-sec-3
+{
+    display: flex;
+    margin-top: 10rem;
+}
+.footer-sec-3 h4
+{
+    font-weight: normal;
+    margin-right: 30.1rem;
+}
+.footer-sec-3 p
+{
+    margin: 0 5rem;
+}
+#first-p
+{
+    margin-left: 0;
+}
+#second-p
+{
+    margin-left: 7rem;
+}
+#third-p
+{
+    margin-left: 2rem;
+}
+.footer-sec-4
+{
+    display: flex;
+    margin: 6.5rem 0;
+    font-size: 1.6rem;
+    color: rgb(151, 151, 151);
+}
+#foot-p-1
+{
+    width: 100rem;
+}
+#foot-p-2
+{
+    width: 155rem;
+}
+
+@media (min-width:0px) and (max-width:745px){
+
+    html, body{
+width: 100%;
+overflow-x: hidden;  
+  }
+  header{
+      /* background: linear-gradient(to bottom, rgb(255, 255, 255), rgba(253, 253, 253, 0) 95%); */
+      
+      height: 100vh;
+     
+
+  }
+
+    .section1 h2{
+        font-size: 6rem;
+        margin-top: 2rem;
+    }
+
+    .section1 sup{
+        font-size: 4rem;
+    }
+
+    .section2{
+        margin-left: 0rem;
+    }
+
+    .section2>nav ul{
+        margin-top: 5rem;
+        margin-left: -17rem;
+        margin-right: 0.5rem
+    }
+    nav ul li{
+        font-size: 1.2rem;
+
+    }
+
+nav img{
+  width: 3rem;
+}
+
+nav .img2 img{
+  margin-top: -4rem;
+}
+
+.section2 h1{
+  font-size: 4rem;
+  margin-left: -16rem;
+margin-top: 10rem;
+}
+
+.header-div-2{
+  margin-top: 8rem;
+
+}
+.header-div-2 p{
+  font-size: 2rem;
+}
+.header-buttons {
+  margin-left: 2rem;
+}
+
+
+.header-buttons button, .maj-sec-7-div button{
+  margin-top: 0.5rem;
+}
+
+.maj-section-2{
+  margin-top: 5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.sec-div-1{
+  display: none;
+}
+
+.sec-div-2{
+  width: 100%;
+}
+.sec-div-2 h3{
+  font-size: 2rem;
+}
+
+.sec-div-2 article {
+    font-size: 2rem;
+
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+
+.maj-section-3 {
+    flex-direction: column;
+}
+.maj-section-3 div {
+    width: 100%;
+    height: 100vh;
+    margin-top: 3rem;
+}
+
+.sec-3-div2 h3{
+    margin-top: 43rem;
+}
+.sec-3-div3 h3, .sec-3-div3 p{
+    margin-top: 11rem;
+}
+
+.pop-dest + article div img{
+    width: 30rem;
+}
+.pop-dest h2
+{
+    font-size: 4.6rem;
+margin-left: -8rem;
+}
+
+.pop-dest + article{
+    flex-direction: column;
+   align-items: center;
+
+}
+.gen-main-div {
+
+    grid-template-columns: 1fr;
+
+}
+.maj-section-5 {
+    flex-direction: column;
+}
+
+.maj-section-5 .image{
+display: block;
+background: white;
+}
+
+.maj-section-5 img {
+width: 100%;
+height: 60vh;
+
+}
+
+.flight-manager {
+    background-color: rgba(3, 3, 29, .97);
+    width: 100%;
+    padding: 2rem;
+}
+.flight-manager h2{
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+}
+.flight-manager p{
+    font-size: 1.5rem;
+}
+
+.maj-section-6
+{
+    font-size: 4rem;
+    line-height: 10rem;
+    
+    margin-left: 5rem;
+}
+.maj-section-6 sup
+{
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+
+.maj-section-7{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.maj-sec-7-div button{
+    margin: 5rem 5rem;
+}
+.maj-sec-7-div2{
+
+    grid-template-columns: 1fr;
+ 
+    height: 350vh;
+    margin-left: 0.5rem;
+}
+.maj-section-8{
+    width: 100%;
+}
+.maj-section-8 img {
+    margin-top: 15rem;
+    width: 60%;
+}
+
+maj-section-9{
+    margin-bottom: 20rem;
+    padding: 20rem 0rem;
+}
+
+.maj-section-9 a {
+    font-size: 8rem;
+
+}
+foot-sec-2-main-div{
+    flex-direction: column;
+}
+
+.grid-display {
+
+    grid-template-columns: 1fr;
+    margin-top: 12rem;
+    
+    margin-left: -18rem;
+}
+
+footer {
+    
+    height: 180vh;
+    color: white;
+
+}
+
+.footer-sec-3 {
+flex-direction: column;
+margin-top: 2rem;
+
+}
+
+#first-p
+{
+    margin-top: 3rem;
+    margin-left: 0;
+}
+#second-p
+{
+    margin-left: 0rem;
+}
+#third-p
+{
+    margin-left: 0rem;
+}
+
+#foot-p-1 {
+    width: 40%;
+    font-size: 1.3rem;
+}
+
+#foot-p-2 {
+    width: 60%;
+    font-size: 1.3rem;
+    margin-bottom: 10rem;
+
+}
+}
+
+@media (min-width:746px) and (max-width:1024px){
+    html, body{
+        width: 100%;
+        overflow-x: hidden;  
+          }
+          header{
+              /* background: linear-gradient(to bottom, rgb(255, 255, 255), rgba(253, 253, 253, 0) 95%); */
+              height: 80vh;
+          }
+
+   
+            .section1 h2{
+                font-size: 8em;
+            
+            }
+        
+            .section1 sup{
+                font-size: 4rem;
+            }
+        
+            .section2{
+                margin-left: 0rem;
+            }
+        
+            .section2>nav ul{
+                margin-top: 15rem;
+                margin-left: -16rem;
+                margin-right: 0.5rem
+            }
+            nav ul li{
+                font-size: 2rem;
+        
+            }
+        
+        nav img{
+          width: 5rem;
+        }
+        
+        nav .img2 img{
+          margin-top: -7rem;
+        }
+        
+        .section2 h1{
+          font-size: 6rem;
+          margin-left: -30rem;
+        margin-top: 10rem;
+        }
+        
+        .header-div-2{
+          margin-top: 8rem;
+        
+        }
+        .header-div-2 p{
+          font-size: 2rem;
+        }
+        .header-buttons {
+          margin-left: 2rem;
+        }
+        
+        
+        .header-buttons button, .maj-sec-7-div button{
+          margin-top: 0.5rem;
+        }
+        
+        .maj-section-2{
+          margin-top: 5rem;
+          margin-left: 1rem;
+          margin-right: 1rem;
+        }
+        
+        .sec-div-1{
+          display: none;
+        }
+        
+        .sec-div-2{
+          width: 100%;
+        }
+        .sec-div-2 h3{
+          font-size: 2rem;
+        }
+        
+        .sec-div-2 article {
+            font-size: 2rem;
+        
+            grid-template-columns: 1fr;
+            gap: 2rem;
+        }
+        
+        .maj-section-3 {
+            flex-direction: column;
+        }
+        .maj-section-3 div {
+            width: 100%;
+            height: 100vh;
+            margin-top: 3rem;
+        }
+        .sec-3-div1 p{
+font-size: 3rem;
+        }
+        .sec-3-div2 h3{
+            margin-top: 70rem;
+            font-size: 7rem;
+        }
+
+        .sec-3-div2 p{
+            font-size: 3rem;
+        }
+        .sec-3-div3 h3{
+            margin-top: 24rem;
+            font-size: 7rem;
+
+        }
+        .sec-3-div3 p{
+            margin-top: 11rem;
+
+            font-size: 3rem;
+        }
+        
+        .pop-dest + article div img{
+            width: 30rem;
+        }
+        .pop-dest h2
+        {
+            font-size: 4.6rem;
+        margin-left: -8rem;
+        }
+        
+        .pop-dest + article{
+            flex-direction: column;
+           align-items: center;
+        
+        }
+        .gen-main-div {
+        
+            grid-template-columns: 1fr;
+        
+        }
+        .maj-section-5 {
+            flex-direction: column;
+        }
+        
+        .maj-section-5 .image{
+        display: block;
+        background: white;
+        }
+        
+        .maj-section-5 img {
+        width: 100%;
+        height: 60vh;
+        
+        }
+        
+        .flight-manager {
+            background-color: rgba(3, 3, 29, .97);
+            width: 100%;
+            padding: 2rem;
+        }
+        .flight-manager h2{
+            font-size: 5rem;
+            margin-bottom: 3rem;
+        }
+        .flight-manager p{
+            font-size: 2rem;
+        }
+        
+        .maj-section-6
+        {
+            font-size: 6rem;
+            line-height: 10rem;
+            
+            margin-left: 5rem;
+        }
+        .maj-section-6 sup
+        {
+            font-size: 3rem;
+            margin-left: 1rem;
+        }
+        
+        .maj-section-7{
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            
+        }
+        .maj-sec-7-div p{
+            font-size: 2.5rem;
+            text-align: justify;
+        }
+        .maj-sec-7-div button{
+            margin: 5rem 5rem;
+            margin-left: 2rem;
+        }
+        .maj-sec-7-div2{
+        
+            grid-template-columns: 1fr;
+         
+            height:250vh;
+            margin-left: 0.5rem;
+        }
+
+        .icon img
+{
+    width: 10rem;
+}
+        .maj-section-8{
+            width: 100%;
+        }
+        .maj-section-8 img {
+            margin-top: 15rem;
+            width: 80%;
+        }
+        
+        maj-section-9{
+            margin-bottom: 20rem;
+            padding: 20rem 0rem;
+        }
+        
+        .maj-section-9 a {
+            font-size: 8rem;
+        
+        }
+        foot-sec-2-main-div{
+            flex-direction: column;
+        }
+        
+        .grid-display {
+        
+            grid-template-columns: 1fr;
+            margin-top: 12rem;
+            
+            margin-left: -18rem;
+        }
+        
+        footer {
+            
+            height: 180vh;
+            color: white;
+        
+        }
+        
+        .footer-sec-3 {
+        flex-direction: column;
+        margin-top: 2rem;
+        
+        }
+        
+        #first-p
+        {
+            margin-top: 3rem;
+            margin-left: 0;
+        }
+        #second-p
+        {
+            margin-left: 0rem;
+        }
+        #third-p
+        {
+            margin-left: 0rem;
+        }
+        
+        #foot-p-1 {
+            width: 40%;
+            font-size: 1.5rem;
+        }
+        
+        #foot-p-2 {
+            width: 60%;
+            font-size: 1.5rem;
+            margin-bottom: 10rem;
+        }
+    }
